@@ -1,0 +1,162 @@
+/* CSS for page.php */
+
+
+#post-24 div.entry-content {
+	position: relative;
+    top: -98px;
+}
+
+#product_form pre {
+	line-height: unset;
+}
+
+.product_form_wraper {
+	width: 487px;
+	height: 720px;
+	border: solid #0073aa 1px;
+	margin: auto;
+	padding: 10px 50px;
+}
+ 
+#product_form label {
+	float: right; 
+	font-size: 26px;
+    font-weight: 500;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 109px;
+	height: 40px;
+}
+ 
+#product_form input {
+	float: left;
+	max-width: 260px;
+	width: 260px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+ 
+#product_form .select2 {
+    width: 260px;
+    height: 40px;
+}
+ 
+#product_form .select2-container--classic .select2-selection--single {
+	height: 42px;
+}
+
+#product_form .select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+	width: 25px;
+	height: 40px;	
+}
+
+#product_form .select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+	width: 260px;
+	height: 40px;	
+}
+
+#product_form .select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__clear {
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+#product_form input[type="text"] {
+	width: 260px;
+	height: 40px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 4px;
+	max-width: 260px;
+}
+
+#product_form label[for=category] {
+	position: relative;
+	top: -3px;
+} 
+
+#product_form input#product {
+	position: relative;
+	top: -24px;
+}
+
+#product_form input#price {
+	position: relative;
+	top: -10px;
+}
+
+#product_form label[for=price] {
+	position: relative;
+	top: -14px;
+}
+
+#product_form input#product_id {
+	position:relative;
+	top: 6px;
+}
+
+#product_form > span:nth-child(12) > span.selection > span
+/* #product_form select#city  */
+{
+    position: relative;
+    top: 50px;
+}
+
+#product_form label[for=city] {
+	position: relative;
+    top: 7px;
+}
+
+#product_form #product {
+	border-radius: 4px;
+	max-width: 260px;
+}
+
+#product_form input[type=file] {
+	width: 0;
+	height: 0;
+}
+
+#product_form .file-field span {
+	color: #fff;
+}
+
+#product_form > div.file-field.d-flex.justify-content-center > div {
+	height: 52px;
+	margin: 0;
+}
+
+#product_form > div.file-field {    
+    float: right;
+	margin-top: 59px;
+    margin-bottom: 77px;
+    border-radius: 1.5rem;
+}
+
+#product_form #product_picture {
+	float: left;
+	height: 128px;
+    width: 128px;
+    background: lightgray;
+    margin: 0 auto;
+}
+
+#product_form input[type="submit"] {
+    margin: 0 auto;
+    height: 50px;
+    position: relative;    
+    left: 67px;
+}
+
+#product_form label, 
+#product_form .select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered 
+{
+	font-size: 20pt;
+    color: #565050;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#product_form span.select2-selection__placeholder {
+	float: right;
+}
